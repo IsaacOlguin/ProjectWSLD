@@ -1,0 +1,37 @@
+Callejero de Zaragoza :
+It is a description of the plan of Zaragoza city. Thanks to this data, it is possible to know about 3 different sets of information of Zaragoza city: street,portals and semantic maps.
+It has a free license, and for everyone of these arguments there is a different cvs that we will consult.
+
+Barrios de Zaragosa:
+The districts represent the division of city and the information about this free CVS permits the knowledge of other informations of Zaragoza
+
+Mapas colaborativos:
+This dataset is interesting because it is possible to know the address and information of the place. The user add new maps and info like the position of museums, schools etc.
+
+Datos demograficos totales :
+We will use part of this database for used information abt urbanism and infrastructure
+
+
+ZARAGOZA
+URL LEGACY:http://www.zaragoza.es/ciudad/servicios/avisolegal.htm#condiciones
+ 
+ 
+Nombre:Callejero de Zaragoza
+Description: Servicio que permite a la ciudadanía la localización geográfica de direcciones en un plano de la ciudad de Zaragoza. Ofrece acceso en tiempo real a la información urbana, la integración de información cartográfica de otras administraciones (Catastro, Cartociudad, Sistema de información Territorial de Aragón, Instituto Geográfico Nacional, etc.) y el enlazado a información adicional de las vías de la ciudad a través de Wikipedia.
+URL :http://www.zaragoza.es/ciudad/risp/detalle_Risp?id=22
+URL CVS:http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/callejero/via.csv
+
+Nombre:Barrios de Zaragoza
+Description:Conjunto de barrios de Zaragoza
+URL: http://www.zaragoza.es/ciudad/risp/detalle_Risp?id=277
+URL CVS:http://www.zaragoza.es/api/recurso/sector-publico/territorio/barrio.csv
+ 
+Nombre:Mapas colaborativos 
+Description:Creación de mapas para que la ciudadania pueda añadir información de forma colaborativa.Consulta los mapas que otros ciudadanos han creado y participa en ellos.
+URL:http://www.zaragoza.es/ciudad/risp/detalle_Risp?id=1080
+URL CVS:http://www.zaragoza.es/docs-api/#!/mapas-colaborativos
+ 
+Nombre:Datos Demográficos Totales de Zaragoza
+Description: Conjunto gráficos, tablas o mapas con datos demográficos sobre la población de la ciudad de Zaragoza, reunidos por el Observatorio de Estadística.
+URL:http://www.zaragoza.es/ciudad/risp/detalle_Risp?id=302
+URL CVS:http://demografia.zaragoza.es
