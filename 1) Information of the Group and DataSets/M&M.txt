@@ -1,0 +1,20 @@
+Monumentos y edificios artísticos:
+Description: Relación de monumentos y edificios artísticos de la ciudad de Madrid, con datos de dirección y de localización para georeferenciarlos. No se trata de una relación exhaustiva, sino de aquellos monumentos y edificios de los cuales ya figura información en la web municipal 
+
+URI:http://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=69e30c658f6a8410VgnVCM2000000c205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD
+
+URI CSV:http://datos.madrid.es/egob/catalogo/208844-0-monumentos-edificios.csv
+
+
+Reasons:this free cvs file have information about the Momuments and historic building that will be liked for our project 
+
+Museos de la ciudad de Madrid
+Description: Datos de los Museos de la ciudad de Madrid. Localización, transportes, horarios, visitas, datos de contacto.
+
+URI:http://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=118f2fdbecc63410VgnVCM1000000b205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD
+
+URI CSV:http://datos.madrid.es/egob/catalogo/201132-0-turismo.csv
+URI LICENCIA:http://datos.madrid.es/egob/catalogo/aviso-legal
+
+
+Reasons:Museums from madrid are in differents areas of ciudad, this data give us the position and other informations  will be  linked. This smart cities domain are in a csv file with free license. 
