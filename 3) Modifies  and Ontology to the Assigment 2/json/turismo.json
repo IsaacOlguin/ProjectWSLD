@@ -1,0 +1,112 @@
+[
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column DESCRIPCION-ENTIDAD using expression value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DESCRIPCION-ENTIDAD",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column HORARIO using expression value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORARIO",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column EQUIPAMIENTO using expression value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "EQUIPAMIENTO",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column EQUIPAMIENTO",
+    "columnName": "EQUIPAMIENTO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CONTENT-URL",
+    "columnName": "CONTENT-URL"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column TIPO-NUM",
+    "columnName": "TIPO-NUM"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PLANTA",
+    "columnName": "PLANTA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PUERTA",
+    "columnName": "PUERTA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ESCALERAS",
+    "columnName": "ESCALERAS"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ORIENTACION",
+    "columnName": "ORIENTACION"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column TELEFONO",
+    "columnName": "TELEFONO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column FAX",
+    "columnName": "FAX"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column DESCRIPCION-ENTIDAD using expression value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DESCRIPCION-ENTIDAD",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column EntityType at index 21 based on column TIPO using expression grel:value.substring(32)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "EntityType",
+    "columnInsertIndex": 21,
+    "baseColumnName": "TIPO",
+    "expression": "grel:value.substring(32)",
+    "onError": "set-to-blank"
+  }
+]
