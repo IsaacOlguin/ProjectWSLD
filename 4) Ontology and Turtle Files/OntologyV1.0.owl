@@ -1,0 +1,375 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.st-madrid.es/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.st-madrid.es/">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://www.st-madrid/Barrios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.st-madrid/Consorcios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.st-madrid/Distritos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.st-madrid/EntidadesOrganismos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.st-madrid/FundacionesCulturales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.st-madrid/MonumentosEdificiosArtisticos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.st-madrid/Museos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.st-madrid/OrganismosInternacionales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.st-madrid/Planetarios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.st-madrid/Viales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.st-madrid/OrganismosInternacionales/EmbajadasConsulados"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.st-madrid/esParteDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.st-madrid/tiene"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.st-madrid/ClaseDeLaVia"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.st-madrid/accesibilidad"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.st-madrid/codigoBarrio"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.st-madrid/codigoDistrito"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.st-madrid/codigoPostal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.st-madrid/codigoVia"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.st-madrid/coodenadaInicioX"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.st-madrid/coordenadaFinalX"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.st-madrid/coordenadaFinalY"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.st-madrid/coordenadaInicioY"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.st-madrid/coordenadaX"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.st-madrid/coordenadaY"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.st-madrid/descripcion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.st-madrid/descripcionEntidad"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.st-madrid/email"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.st-madrid/horarioEntidad"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.st-madrid/idEntidad"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.st-madrid/latitud"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.st-madrid/latitudSRfinal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.st-madrid/latitudSRinicio"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.st-madrid/localidad"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.st-madrid/longitud"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.st-madrid/longitudSRfinal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.st-madrid/longitudSRinicio"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.st-madrid/nombreBarrio"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.st-madrid/nombreDistrito"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.st-madrid/nombreEntidad"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.st-madrid/nombreVia"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.st-madrid/numeroDeBarrios"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.st-madrid/numeroEntidadVia"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.st-madrid/perimetro"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.st-madrid/provincia"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.st-madrid/situacionViaTerreno"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.st-madrid/superficie"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.st-madrid/tipo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.st-madrid/tipoEntidad"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.st-madrid/transporte"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.st-madrid/Consorcios"/>
+        <Class IRI="http://www.st-madrid/EntidadesOrganismos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.st-madrid/FundacionesCulturales"/>
+        <Class IRI="http://www.st-madrid/EntidadesOrganismos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.st-madrid/MonumentosEdificiosArtisticos"/>
+        <Class IRI="http://www.st-madrid/EntidadesOrganismos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.st-madrid/Museos"/>
+        <Class IRI="http://www.st-madrid/EntidadesOrganismos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.st-madrid/OrganismosInternacionales"/>
+        <Class IRI="http://www.st-madrid/EntidadesOrganismos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.st-madrid/Planetarios"/>
+        <Class IRI="http://www.st-madrid/EntidadesOrganismos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.st-madrid/OrganismosInternacionales/EmbajadasConsulados"/>
+        <Class IRI="http://www.st-madrid/OrganismosInternacionales"/>
+    </SubClassOf>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.st-madrid/esParteDe"/>
+        <Class IRI="http://www.st-madrid/Barrios"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.st-madrid/esParteDe"/>
+        <Class IRI="http://www.st-madrid/Distritos"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.st-madrid/tiene"/>
+        <Class IRI="http://www.st-madrid/Barrios"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.st-madrid/tiene"/>
+        <Class IRI="http://www.st-madrid/Distritos"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.st-madrid/tiene"/>
+        <Class IRI="http://www.st-madrid/Viales"/>
+    </ObjectPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.st-madrid/ClaseDeLaVia"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.st-madrid/accesibilidad"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.st-madrid/codigoBarrio"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.st-madrid/codigoDistrito"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.st-madrid/codigoPostal"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.st-madrid/codigoVia"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.st-madrid/coodenadaInicioX"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.st-madrid/coordenadaFinalX"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.st-madrid/coordenadaFinalY"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.st-madrid/coordenadaInicioY"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.st-madrid/coordenadaX"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.st-madrid/coordenadaY"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.st-madrid/descripcion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.st-madrid/descripcionEntidad"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.st-madrid/email"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.st-madrid/horarioEntidad"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.st-madrid/idEntidad"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.st-madrid/latitud"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.st-madrid/latitudSRfinal"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.st-madrid/latitudSRinicio"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.st-madrid/localidad"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.st-madrid/longitud"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.st-madrid/longitudSRfinal"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.st-madrid/longitudSRinicio"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.st-madrid/nombreBarrio"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.st-madrid/nombreDistrito"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.st-madrid/nombreEntidad"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.st-madrid/nombreVia"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.st-madrid/numeroDeBarrios"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.st-madrid/numeroEntidadVia"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.st-madrid/perimetro"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.st-madrid/provincia"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.st-madrid/situacionViaTerreno"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.st-madrid/superficie"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.st-madrid/tipo"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.st-madrid/tipoEntidad"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.st-madrid/transporte"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+
